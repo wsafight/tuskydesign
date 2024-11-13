@@ -8,10 +8,8 @@
     "outDir": "dist",
     "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
     "emitDeclarationOnly": false,
-    "types": [
-      "node"
-    ],
-    "declaration": true
+    "declaration": true,
+    "lib": ["dom","es2022"]
   },
   "include": [
     "**/*.ts"

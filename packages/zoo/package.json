@@ -17,11 +17,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tuskdesign/animals": "*",
-    "@tuskdesign/names": "*"
+    "@tuskdesign/animals": "workspace:*",
+    "@tuskdesign/names":"workspace:*"
   },
   "devDependencies": {
-    "@types/node": "18.16.9",
-    "typescript": "~5.5.2"
+    "tslib": "2.8.1",
+    "typescript": "5.6.3"
   }
 }
